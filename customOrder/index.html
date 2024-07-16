@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macrame Bracelet Patterns</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Macrame Bracelet Patterns</h1>
+        <label for="string-select">Select String Model:</label>
+        <select id="string-select">
+            <option value="4-string">4 String</option>
+            <option value="6-string">6 String</option>
+            <option value="8-string">8 String</option>
+        </select>
+        <label for="background-color-picker">Choose Background Color:</label>
+        <input type="color" id="background-color-picker">
+        <label for="upper-v-color-picker">Choose 1 Color:</label>
+        <input type="color" id="upper-v-color-picker">
+        <label for="lower-v-color-picker">Choose 2 Color:</label>
+        <input type="color" id="lower-v-color-picker">
+        <label for="3-color-picker">Choose 3 Color:</label>
+        <input type="color" id="3-color-picker">
+        <canvas id="pattern-canvas" width="130" height="400"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

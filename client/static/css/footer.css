@@ -1,0 +1,124 @@
+.footer {
+    padding: 30px;
+    font-family: Alata, sans-serif
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-links {
+    flex: 1;
+    margin-bottom: 40px;
+}
+
+.social-media-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sml {
+    display: flex;
+    flex-direction: column;
+}
+
+.ql {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ql li {
+    margin-bottom: 5px;
+}
+
+.ig {
+    display: flex;
+    flex-direction: row;
+}
+
+.insta i {
+    transition: transform 0.3s; /* Add transition for smooth scaling */
+}
+  
+.insta:hover i {
+    transform: scale(1.2); /* Scale the icon on hover */
+    color: #918d8d
+}
+
+.ig-link {
+    position: relative;
+    text-decoration: none;
+    color: #918d8d; /* Set the color as per your design */
+    margin-left: 5px
+}
+
+.ig-link:hover {
+    text-decoration: none;
+    color: #918d8d
+}
+
+.ig-link::before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 0;
+    height: 1px; /* Adjust the thickness of the underline as needed */
+    background-color: black; /* Set the color as per your design */
+    transition: width 0.3s ease; /* Add transition for smooth effect */
+}
+
+.ig-link:hover::before {
+    width: 100%; /* Set the width to 100% on hover */
+}
+
+.ql-link {
+    position: relative;
+    text-decoration: none;
+    color: #918d8d; /* Set the color as per your design */
+
+}
+
+.ql-link:hover {
+    text-decoration: none;
+    color: #918d8d
+}
+
+.ql-link::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 1px; /* Adjust the thickness of the underline as needed */
+    background-color: black; /* Set the color as per your design */
+    transition: width 0.3s ease; /* Add transition for smooth effect */
+}
+
+.ql-link:hover::before {
+    width: 100%; /* Set the width to 100% on hover */
+}
+
+.insta {
+    color: #918d8d;
+    font-size: 17px
+}
+
+.footer-home {
+    color: black
+}
+
+.footer-home:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media(max-width: 621px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    } 
+}
