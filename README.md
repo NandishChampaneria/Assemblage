@@ -72,8 +72,6 @@ Contributions are welcome! Here's how you can contribute:
 
 Please make sure to update tests as appropriate and adhere to the coding conventions used.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
  
